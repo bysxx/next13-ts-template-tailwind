@@ -5,6 +5,7 @@ import ClientComponent from './components/client-component';
 import DynamicLinkBox from './components/dynamic-link-box';
 import FetchingComponent from './components/fetching-component';
 import ImageComponent from './components/image-component';
+import ServerActionForm from './components/server-action-form';
 
 export default function ExamplePage() {
   return (
@@ -24,6 +25,8 @@ export default function ExamplePage() {
         </Suspense>
 
         <ImageComponent />
+
+        <ServerActionForm />
       </div>
     </main>
   );
